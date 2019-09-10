@@ -30,7 +30,7 @@ namespace IM_Main
         public decimal gdec_frecuencia;
         public int gi_registros;
         public string gs_tabla_destino;
-
+        // ESTO ES UN COMENTARIO
         public Repositorio()
         {
             /*Se llama a la función que recupera la configuración e inicia las varibles globales de la clase*/
