@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuracion>
+  <TablaDestino>
+    <campo>
+      <destino>id_etiqueta</destino>
+      <origen>Barcode</origen>
+    </campo>
+    <campo>
+      <destino>variedad_real</destino>
+      <origen>Especie</origen>
+    </campo>
+  </TablaDestino>
+  <ServidorOrigen>
+    <server>I7-ANGEL</server>
+    <database>CompacPackPrintingClient</database>
+  </ServidorOrigen>
+  <ServidorDestino>
+    <server>192.168.4.101\sql2012</server>
+    <database>pm_packing4</database>
+	 <tabla>etiquetas_pack_printing</tabla>
+  </ServidorDestino>
+  <ModoLectura>
+    <registros>30</registros>
+    <frecuencia>10</frecuencia>
+    <ultimo fecha="">10</ultimo>
+  </ModoLectura>
+  
+</Configuracion>
